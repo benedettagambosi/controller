@@ -435,8 +435,8 @@ class neptune_manager():
         import neptune.new as neptune
 
         self.run = neptune.init(
-            project="benedettagambosi/whole-system",
-            api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiI2N2E0ZDdkMy1lOTU0LTRjNTMtODdjOS03ZmVkYWMxMmM0NWUifQ==",
+            project="",
+            api_token="==",
         )
     def set_params(self, params):
         self.run["parameters"] = params
